@@ -1,0 +1,6 @@
+﻿Test senaryoları
+
+1. Programı açın ve 2 kg ağırlığında standart bir gönderi oluşturun. Ek hizmet seçmeyin. Beklenen takip numarası 1001, toplam ücret 60 TL’dir.
+2. İkinci gönderi için 2 kg, ekspres teslimat, sigorta ve hediye paketi seçin. Beklenen toplam ücret 140 TL’dir.
+3. Menüden 3 seçeneğini kullanarak 1001 numaralı gönderinin durumunu ilerletin. Ardından 2 ile aynı numarayı sorgulayın. Son durum Yolda olmalıdır. Bildirimlerde sırasıyla Hazırlandı ve Yolda görünmelidir.
+4. Yeni bir gönderide alıcı adını boş bırakın ve diğer alanları doldurun. Sistem zorunlu alan uyarısı vermeli ve takip numarası oluşturmamalıdır.

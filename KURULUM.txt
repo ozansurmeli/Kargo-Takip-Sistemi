@@ -1,0 +1,12 @@
+﻿Windows kurulumu
+
+1. Visual Studio 2022 veya Build Tools 2022 kurulumunda C++ ile masaüstü geliştirme bileşenini seçin.
+2. ZIP dosyasını ayıklayın. README.txt dosyasının bulunduğu klasörü açıp adres çubuğundaki yolu kopyalayın.
+3. Başlat menüsünden Developer Command Prompt for VS 2022 penceresini açın.
+4. Aşağıdaki komutta KLASOR_YOLU yerine kopyaladığınız yolu yazarak Enter tuşuna basın.
+   cd /d "KLASOR_YOLU"
+5. Türkçe karakterlerin görüntülenmesi için şu komutu çalıştırın.
+   chcp 65001
+6. Programı şu komutla derleyin.
+   cl /nologo /std:c++17 /EHsc /utf-8 src\main.cpp /Fe:kargo.exe
+7. Programı başlatmak için kargo.exe yazıp Enter tuşuna basın.
